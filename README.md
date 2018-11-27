@@ -15,8 +15,8 @@
 * **Jack Li**
 * **Denny Feng**
 
-##COPYRIGHT
-* **  Stancelab.com - All rights reserved **
+## COPYRIGHT
+* ** Stancelab.com - All rights reserved **
 
 ## License
 
