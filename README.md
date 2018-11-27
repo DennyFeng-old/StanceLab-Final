@@ -1,6 +1,6 @@
 # StanceLab-Final Revision
-![Home](img/sample/home.png)  
-![Quote](img/sample/quote.png)  
+![Home](img/sample.jpg)  
+
 ## Built With
 
 * HTML
