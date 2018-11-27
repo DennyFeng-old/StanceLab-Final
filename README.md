@@ -16,7 +16,7 @@
 * **Denny Feng**
 
 ## COPYRIGHT
-* **Stancelab.com - All rights reserved **
+* **Stancelab.com - All rights reserved**
 
 ## License
 
