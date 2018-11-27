@@ -1,7 +1,6 @@
 /* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
 html,
-body,
-.view {
+body{
   height: 100%; }
 
 /* Full Page Carousel itself*/
@@ -13,7 +12,28 @@ body,
     .carousel .carousel-inner .active {
       height: 100%; }
 
+.carousel-logo{
+    position: relative;
+    left:8rem;
+}
+.container{
+    position: relative;
+    left: 1rem;
+}
+.view{
+    height:100%;
+    opacity: 0.8 !important;
+}
+.mask{
+    background-color: none;
+}
 /* Navbar animation */
+.nav-logo{
+    width:26%;
+}
+.navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link{
+    background-color: rgb(255, 0, 0) !important;
+}
 .navbar {
   background-color: rgba(0, 0, 0, 0.2); }
 
@@ -23,8 +43,1239 @@ body,
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   .navbar {
-    background-color: #1C2331; } }
+    background-color: #1C2331; } 
+}
 
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
   background-color: #1C2331; }
+
+.quoteBtn{
+    text-transform: uppercase;
+    color:#F9F9F9;
+
+
+}
+
+.quoteBtn:hover{
+    background-color:#BF0920;
+    color:#F9F9F9;
+
+}
+
+
+.d-none{
+    display:block !important;
+}
+
+
+
+.fa-wrench,
+.fa-car{
+   color: #4285f4!important;
+    font-size:1.5rem;
+        position: relative;
+    left: 2.5rem;
+    top: 1rem;
+}
+
+.fa-line-chart{
+    color: #4285f4!important;
+    font-size:1.5rem;
+        position: relative;
+    left: 2.5rem;
+    top: 3rem;
+
+}
+
+.fa-dharmachakra,
+.fa-spray-can{
+     color: #4285f4!important;
+    font-size:1.5rem;
+     position: relative;
+    left: 2rem;
+}
+.fa-palette{
+      color: #4285f4!important;
+    font-size:1.5rem;
+     position: relative;
+    left: 2rem;
+}
+
+.feature-title{
+    font-family: 'Bitter', sans-serif;
+    font-weight: bold;
+}
+
+
+.hh-text{
+
+    position: relative;
+    top: 1rem;
+    left:20rem;
+    text-align: center;
+
+
+}
+
+
+strong
+{
+        text-transform: uppercase;
+}
+
+.grey-text{
+     font-family: 'Ledger', serif;
+    color:black !important;
+}
+
+
+.showroom-img{
+   position: relative;
+    top: 7rem;
+}
+
+#about{
+  padding-top: 100px;
+}
+
+#services{
+  padding-top: 50px;
+}
+
+#location{
+  padding-top:50px;
+}
+#partners{
+  padding-top:50px;
+}
+
+
+.form-row{
+        max-height: 936px;
+}
+
+
+.request-quote{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    right:18rem;
+    font-size:2rem;
+}
+.inquries{
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    right:18rem;
+}
+.contactForm{
+        position: relative;
+    bottom: 30rem;
+    left: 14rem;
+
+}
+.fa-map-marker{
+    padding:1rem;
+}
+.fa-phone {
+  position: relative;
+    bottom: 12rem;
+    left: 10rem;
+
+}
+.number_CT{
+      position: relative;
+    bottom: 10rem;
+    left: 10rem;
+}
+
+.fa-envelope{
+    position: relative;
+    bottom: 18rem;
+    left: 20rem;
+}
+.email_CT{
+    position: relative;
+    bottom: 16.5rem;
+    left: 20rem;
+}
+
+.left-ft1,
+.left-ft2,
+.left-ft3{
+    padding:1rem;
+}
+.left-ft3{
+    position: relative;
+    top: 2rem;
+}
+
+.left-gt3{
+    position: relative;
+    top: 2rem;
+}
+
+
+.right-ft1,
+.right-ft2{
+padding: 1rem;
+position: relative;
+bottom: 1rem;
+
+}
+.right-ft3{
+    padding: 1rem;
+position: relative;
+bottom: 1rem;
+}
+
+.right-gt1{
+        position: relative;
+    bottom: 1rem;
+}
+.right-gt2{
+    position: relative;
+    bottom: 1.5rem;
+}
+.right-gt3{
+    position: relative;
+    bottom: 1rem;
+}
+.img-row{
+     padding:1rem;
+    position: relative;
+    left: 5rem;
+}
+
+
+.carousel-hh1{
+    width:500px;
+    position: relative;
+    left: 12rem;
+}
+
+.carousel-hh2{
+    position: relative;
+    left: 10rem;
+}
+
+.carousel-hh3{
+    position: relative;
+    left: 9rem;
+}
+
+.map{
+    position: relative;
+    right:32rem;
+    width: 669px;
+}
+
+
+.fa-map-marker,
+.fa-phone,
+.fa-envelope{
+    color: #4285f4!important;
+    
+    
+}
+.address_CT,
+.number_CT,
+.email_CT{
+    font-weight: bold;
+}
+.fa-facebook:hover{
+    color: #3b5998;
+}
+.fa-instagram:hover{
+    color:#c32aa3;
+
+
+}
+.fa-yelp:hover{
+    color:#d32323;
+}
+.info{
+    font-weight: bolder;
+    font-family: 'Ledger', serif;
+    
+}
+
+#status
+{
+    font-size: 1.5rem;
+    color: #4285f4!important;
+}
+/* Media Queries */
+@media only screen and (max-width:1199px){
+    .carousel .carousel-indicators li {
+    top: -3rem;
+}
+.nav-logo {
+    width: 22%;
+}
+.img-row{
+    width: 352px;
+    height: 200px;
+    position: relative;
+    left: 4rem;
+    bottom: 2rem;
+    }    
+.left-ft1{
+    position: relative;
+    padding: 1rem;
+    bottom: 3rem;
+    font-size: 15px; 
+    }  
+    
+ .left-gt1
+{
+    position: relative;
+    bottom: 3rem;
+    font-size: 15px;
+    }   
+    
+.left-ft2{
+        position: relative;
+    padding: 1rem;
+    bottom: 1rem;
+    font-size: 15px;  
+    }   
+    
+ .left-gt2
+{
+    position: relative;
+    font-size: 15px;
+    }      
+
+.left-ft3 {
+    position: relative;
+    top: 1rem;
+}    
+    
+.left-gt3 {
+    position: relative;
+    top: 1rem;
+    font-size: 15px;
+}    
+    
+    
+    
+.fa-wrench {
+    color: #4285f4!important;
+    font-size: 1.5rem;
+    position: relative;
+    left: 1.5rem;
+    top: -2rem;
+}
+.fa-car{
+         color: #4285f4!important;
+    font-size: 1.5rem;
+    position: relative;
+    left: 1.5rem;
+    top: 0;  
+    }    
+
+.fa-line-chart {
+    color: #4285f4!important;
+    font-size: 1.5rem;
+    position: relative;
+    left: 1.5rem;
+    top: 2rem;
+
+}
+.right-ft1, 
+.right-ft2, 
+.right-ft3 {
+    position: relative;
+    padding: 1rem;
+    bottom: 3rem;
+    font-size: 14px;
+}
+   
+.right-gt1,
+.right-gt2,
+.right-gt3 {
+       position: relative;
+    bottom: 3rem;
+    font-size: 15px;
+}    
+    
+
+.fa-dharmachakra, 
+.fa-spray-can,
+.fa-palette {
+    color: #4285f4!important;
+    font-size: 1.5rem;
+    position: relative;
+    left: 1rem;
+    bottom: 2rem;
+}     
+.hh-text{
+
+ position: relative;
+    top: 3rem;
+    left: 15rem;
+    text-align: center;
+
+}
+.carousel-hh1{
+        max-width: 20rem;
+    left: 3rem;
+
+}
+.carousel-hh2{
+    max-width: 20rem;
+    left: 1rem;
+
+}
+.carousel-hh3{
+    max-width: 20rem;
+    bottom: 0;
+    left:0;
+    }
+.partners-hr{
+        position: relative;
+        top:4rem;
+    }
+    
+ .request-quote{
+    right:10rem;
+    font-size:2rem;
+}
+.inquries{
+    
+    right:11rem;
+}
+.map{
+     top:1rem;
+    right:25rem;
+    width:100%;
+    }    
+.contactForm{
+    bottom: 30rem;
+    left: 12rem;
+
+}
+
+.fa-phone {
+  position: relative;
+    bottom: 12rem;
+    left: 10rem;
+
+}
+.number_CT{
+      position: relative;
+    bottom: 10rem;
+    left: 10rem;
+}
+
+.fa-envelope{
+    position: relative;
+    bottom: 20rem;
+    left: 20rem;
+}
+.email_CT{
+    position: relative;
+    bottom: 17.5rem;
+    left: 20rem;
+}
+.footer-logo{
+        width:4.5%;
+    }    
+
+.fa-facebook,
+.fa-instagram,
+.fa-yelp
+    {
+   font-size:1.3rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width:991px)
+{
+.carousel .carousel-indicators li {
+    top: -3rem;
+}
+.navbar .nav-item .nav-link {
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.fa-facebook, .fa-instagram, .fa-yelp {
+    position: relative;
+    left: -0.1rem;
+}
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+         bottom:10rem;    
+        
+        
+    }   
+.mainClass{
+        position: relative;
+    top: -15rem;
+    }   
+.carousel-indicators{
+        bottom:12rem;
+}
+.carousel {
+    height: 90%;
+}
+.view{
+        height:70%;
+    }
+.img-row{
+    width: 357px;
+    height: 250px;
+    position: relative;
+    left: 0rem;
+    bottom: 2rem;
+    }    
+.left-ft1{
+    position: relative;
+    padding: 1rem;
+    bottom: 3rem;
+    font-size: 15px; 
+    }  
+    
+ .left-gt1
+{
+    position: relative;
+    bottom: 3rem;
+    font-size: 15px;
+    }   
+    
+.left-ft2{
+        position: relative;
+    padding: 1rem;
+    bottom: 1rem;
+    font-size: 15px;  
+    }   
+    
+ .left-gt2
+{
+    position: relative;
+    font-size: 15px;
+    }      
+
+.left-ft3 {
+    position: relative;
+    top: 4rem;
+}    
+    
+.left-gt3 {
+    position: relative;
+    top: 4rem;
+    font-size: 15px;
+}    
+    
+    
+    
+.fa-wrench {
+    color: #4285f4!important;
+    font-size: 1.5rem;
+    position: relative;
+    left: 1.5rem;
+    top: -2rem;
+}
+.fa-car{
+         color: #4285f4!important;
+    font-size: 1.5rem;
+    position: relative;
+    left: 1.5rem;
+    top: 0;  
+    }    
+
+.fa-line-chart {
+    color: #4285f4!important;
+    font-size: 1.5rem;
+    position: relative;
+    left: 1.5rem;
+    top: 5rem;
+
+}
+    
+    
+.right-ft1, 
+.right-ft2, 
+.right-ft3 {
+    position: relative;
+    padding: 1rem;
+    bottom: 3rem;
+    font-size: 14px;
+}
+   
+.right-gt1,
+.right-gt2,
+.right-gt3 {
+       position: relative;
+    bottom: 3rem;
+    font-size: 15px;
+}    
+    
+
+.fa-dharmachakra, 
+.fa-spray-can,
+.fa-palette {
+    color: #4285f4!important;
+    font-size: 1.5rem;
+    position: relative;
+    left: 1rem;
+    bottom: 2rem;
+} 
+.hh-text{
+
+ top: -9rem;
+    left: 1rem;
+
+}
+.carousel-hh1{
+     position: relative;
+    left: 1rem;
+    max-width: 17rem;
+
+
+}
+.carousel-hh2{
+      padding: 1rem;
+    left: -1rem;
+    max-width: 17rem;
+    bottom: 1rem;
+
+}
+.carousel-hh3{
+     bottom: 12rem;
+    left: 31rem;
+    max-width: 17rem;
+    }
+.partners-hr{
+    position: relative;
+    top:-6rem;
+}    
+.form-row{
+        max-height: 644px;
+}
+  .request-quote{
+    right:3rem;
+    font-size:2rem;
+}
+.inquries{
+    
+    right:2rem;
+}
+.map{
+    width:60%;
+     top:1rem;
+    right:10rem;
+    }    
+.contactForm{
+    bottom: 30rem;
+    left: 13rem;
+
+}
+.fa-map-marker{
+    position: relative;
+    font-size:1.5rem;
+     right:2rem;
+    }
+    
+.address_CT{
+    position: relative;
+   right:2rem;
+    }   
+    
+    
+    
+.fa-phone {
+  position: relative;
+    font-size:1.5rem;
+    bottom: 12rem;
+    left: 5rem;
+
+}
+.number_CT{
+    position: relative;
+    bottom: 10rem;
+    left: 5rem;
+}
+
+.fa-envelope{
+    position: relative;
+     font-size:1.5rem;
+    bottom: 19rem;
+    left: 12rem;
+}
+.email_CT{
+    position: relative;
+    bottom: 16.8rem;
+    left: 13rem;
+}
+.footer-logo{
+        width:5%;
+        position: relative;
+        left:-0.5rem;
+    }
+.fa-facebook,
+.fa-instagram,
+.fa-yelp
+    {
+   font-size:1.2rem;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{  
+  .carousel .carousel-indicators li {
+    top: 1rem;
+}
+    .navbar .nav-item .nav-link {
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.fa-facebook, .fa-instagram, .fa-yelp {
+    position: relative;
+    left: -0.1rem;
+}
+ .carousel-control-prev,
+    .carousel-control-next {
+         bottom:25rem;    
+        
+        
+    }   
+.mainClass{
+    position: relative;
+    top: -26rem;
+    left:4rem;
+        max-width: 65%;
+
+    }   
+.carousel-indicators{
+        bottom:30rem;
+        
+}
+.view{
+        height:45%;
+    }    
+.carousel {
+    height: 100%;
+}
+.img-row{
+    width: 300px;
+    height: 142px;
+    position: relative;
+    left: 7rem;
+    bottom: 9rem;
+    } 
+.carousel-horiz-1 {
+    position: relative;
+    left: -6rem;
+    }   
+.carousel-horiz-2 {
+    position: relative;
+    left: 7rem;
+    bottom: 7rem;
+    }   
+.carousel-horiz-3 {
+    position: relative;
+    top: -6rem;
+    left: -6rem;
+    bottom: 7rem;
+    }   
+.carousel-horiz-4 {
+    position: relative;
+    left: 7rem;
+    bottom: 13rem;
+    }   
+    .services-h2{
+        position: relative;
+        bottom:5rem;
+    }
+.left-ft1{
+     bottom: 8rem;
+    left: -2.5rem
+
+    }  
+    
+ .left-gt1
+{
+    right:2rem;
+    bottom: 8rem;
+
+    }   
+    
+.left-ft2{
+       
+      bottom: 8rem;
+    left: -2.5rem
+   
+    }   
+    
+ .left-gt2
+{
+    right:2rem;
+    bottom: 9rem;
+    }      
+
+.left-ft3 {
+    top: -10rem;
+    right:2.5rem
+
+}    
+    
+.left-gt3 {
+    top: -10rem;
+    right:2rem;
+}    
+    
+    
+    
+.fa-wrench {
+  left:0.9rem;
+    top: -7rem;
+}
+.fa-car{
+    left:0.9rem;
+    top: -7rem;
+    }    
+
+.fa-line-chart {
+      left:0.9rem;
+    top: -9rem;
+}
+.right-ft1,   
+.right-ft2,
+.right-ft3 {
+   
+    bottom: 2.5rem;
+    right:2.5rem;
+  
+}
+
+.right-gt1,
+.right-gt2,
+.right-gt3{
+        right:2rem; 
+    } 
+ 
+   
+.fa-dharmachakra,    
+.fa-spray-can,
+.fa-palette {
+    left: 0.9rem;
+    bottom:1.7rem;
+    
+}
+
+ .carousel-hh1{
+    left: 5rem;
+   
+
+
+}
+.carousel-hh2{
+    bottom: 0.25rem;
+    left: 5rem;
+ 
+
+}
+.carousel-hh3{
+       bottom: 1rem;
+    left:5rem;
+    }   
+.hh-text {
+    top: 1rem;
+    left: -1rem;
+    }
+    
+.partners-hr {
+    position: relative;
+    top: 1rem;
+}
+    .partner-row,
+    .partner-row-two{
+        position: relative;
+        left:5rem;
+    }    
+    
+.form-row{
+   max-height: 1037px;
+}
+  .request-quote{
+    right:-2rem;
+    font-size:2rem;
+}
+.inquries{
+    
+    left:3.5rem;
+    font-size:15px;
+    font-weight: bold;
+    text-align: center;
+}
+.map{
+    width:100%;
+     top:1rem;
+    left:3rem;
+    }    
+.contactForm{
+    top: 1rem;
+    left: 3rem;
+
+}
+.sendBtn{
+       position: relative;
+    left:7rem;
+    }    
+.fa-map-marker{
+    position: relative;
+    font-size:1.5rem;
+     right:1rem;
+    bottom:3.5rem
+    }
+    
+.address_CT{
+    position: relative;
+   right:1rem;
+    bottom:3.5rem;
+    font-size:13px;
+    font-weight: bold;
+    
+    }   
+    
+.fa-phone {
+  position: relative;
+    font-size:1.5rem;
+    bottom: 5rem;
+    left: -1.2rem;
+
+}
+.number_CT{
+    position: relative;
+    bottom: 5rem;
+    left: -1.2rem;
+    font-weight: bold;
+}
+
+.fa-envelope{
+    position: relative;
+     font-size:1.5rem;
+    bottom: 7rem;
+    left: -1.2rem;
+}
+.email_CT{
+    position: relative;
+    bottom: 7rem;
+    left: -1.2rem;
+     font-weight: bold;
+}  
+.footer-logo{
+        width:8%;
+        
+    }   
+    
+    
+
+}
+@media only screen and (max-width: 497px) {
+    
+    .navbar .nav-item .nav-link {
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.carousel .carousel-indicators li {
+    top: -1rem;
+  
+    }
+.fa-facebook, .fa-instagram, .fa-yelp {
+    position: relative;
+    left: -0.1rem;
+}
+    .nav-logo{
+        width:30%;
+    }
+    .second-nav{
+        position: relative;
+        left:2rem;
+    }
+ .carousel-control-prev,
+    .carousel-control-next {
+         bottom:20rem;    
+        
+        
+    }   
+.mainClass{
+        position: relative;
+    top: -25rem;
+    }   
+.carousel-indicators{
+        bottom:22rem;
+        
+}
+.view{
+        height:45%;
+    }    
+.carousel {
+    height: 100%;
+}
+   .showroom-img{
+        top:2rem;
+    } 
+.services-h2{
+    position: relative;
+    top: -7rem;
+    left:-1rem;
+
+    }
+    
+.img-row{
+    width: 250px;
+    height: 142px;
+    position: relative;
+    left: 2rem;
+    bottom: 9rem;
+    } 
+.carousel-horiz-1 {
+    position: relative;
+    left: -4rem;
+    }   
+.carousel-horiz-2 {
+    position: relative;
+    left: 6rem;
+    bottom: 7rem;
+    }   
+.carousel-horiz-3 {
+    position: relative;
+    top: -6rem;
+    left: -4rem;
+    bottom: 7rem;
+    }   
+.carousel-horiz-4 {
+    position: relative;
+    left: 6rem;
+    bottom: 13rem;
+    }   
+
+.left-ft1{
+    bottom: 9rem;
+    left:-0.5rem;
+
+    }  
+    
+ .left-gt1
+{
+    
+    bottom: 9rem;
+
+
+    }   
+    
+.left-ft2{
+       
+    bottom: 10rem;
+     left:-0.5rem;
+   
+    }   
+    
+ .left-gt2
+{
+     top: -10rem;
+    }      
+
+.left-ft3 {
+    top: -10rem;
+     left:-0.5rem;
+
+}    
+    
+.left-gt3 {
+    top: -10rem;
+}    
+    
+    
+    
+.fa-wrench {
+ 
+    left: 1rem;
+    top: -8.2rem;
+}
+.fa-car{
+    left: 1rem;
+    top: -9.2rem;
+    }    
+
+.fa-line-chart {
+      left: 1rem;
+    top: -9.2rem;
+}
+.right-ft1,   
+.right-ft2,
+.right-ft3 {
+   
+    bottom: 2rem;
+     left:-0.5rem;
+  
+}
+
+.right-gt1,
+.right-gt2,
+.right-gt3{
+        bottom:2rem;  
+        left:-1rem;
+    } 
+ 
+   
+.fa-dharmachakra,    
+.fa-spray-can,
+.fa-palette {
+    left: 1rem;
+    bottom:1.1rem;
+}
+    
+ .carousel-hh1{
+    left: 1rem;
+    max-width: 15rem;
+
+
+}
+.carousel-hh2{
+    bottom: 0.5rem;
+    left: 1rem;
+    max-width: 15rem;
+
+}
+.carousel-hh3{
+       bottom: 1rem;
+    left: 1rem;
+    max-width: 15rem;
+
+    }   
+       
+.hh-text{
+
+ top: 1rem;
+    left: 1rem;
+
+}
+    
+.partners-hr {
+    top: 2rem;
+}  
+    
+ .partner-row,
+    .partner-row-two{
+        position: relative;
+        left:1rem;
+    }    
+    
+.form-row{
+   max-height: 1000px;
+}
+  .request-quote{
+    right:1rem;
+    font-size:2rem;
+}
+.inquries{
+    
+    left:-0.5rem;
+    font-size:15px;
+    font-weight: bold;
+    text-align: center;
+}
+    
+#location{
+        position: relative;
+        bottom:10rem;
+    }    
+    
+    
+.map{
+    width:100%;
+     top:1rem;
+    left:-1rem;
+    }    
+.contactForm{
+    top: 1rem;
+    left: -1rem;
+
+}
+.sendBtn{
+       position: relative;
+    left:3rem;
+    }    
+.fa-map-marker{
+    position: relative;
+    font-size:1.5rem;
+     right:-0.2rem;
+    bottom:3.5rem
+    }
+    
+.address_CT{
+    position: relative;
+   right:-0.2rem;
+    bottom:3.5rem;
+    font-size:13px;
+    font-weight: bold;
+    
+    }   
+    
+.fa-phone {
+  position: relative;
+    font-size:1.5rem;
+    bottom: 5rem;
+    left: 0.1rem;
+
+}
+.number_CT{
+    position: relative;
+    bottom: 5rem;
+    left: 0.1rem;
+    font-weight: bold;
+}
+
+.fa-envelope{
+    position: relative;
+     font-size:1.5rem;
+    bottom: 7rem;
+    left: 0.1rem;
+}
+.email_CT{
+    position: relative;
+    bottom: 7rem;
+    left: 0.6rem;
+     font-weight: bold;
+}
+.footer-logo{
+        width: 9%;
+        position: relative;
+        top:1rem;
+        left:-0.9rem;
+    }
+    .status{
+        text-align: center;
+    }
+ .fa-facebook,
+.fa-instagram,
+.fa-yelp
+    {
+   position: relative;
+    left:0.9rem;
+    }
+    .pb-4{
+        position: relative;
+        left:-1rem;
+    }
+    .footer-copyright{
+        position: relative;
+        left:-1rem;
+    }  
+}
+ 
+
+
+
