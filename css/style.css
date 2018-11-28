@@ -27,6 +27,8 @@ body{
 }
 .view{
     height:100%;
+    -o-object-fit: cover;
+    object-fit: cover;
     opacity: 0.8 !important;
 }
 .mask{
