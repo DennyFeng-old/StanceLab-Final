@@ -523,7 +523,7 @@ bottom: 1rem;
     top: -15rem;
     }   
 .carousel-indicators{
-        bottom:12rem;
+        bottom:9rem;
 }
 .carousel {
     height: 90%;
@@ -757,7 +757,7 @@ bottom: 1rem;
 
     }   
 .carousel-indicators{
-        bottom:30rem;
+        bottom:26rem;
         
 }
 .view{
@@ -989,7 +989,7 @@ bottom: 1rem;
     padding-left: 5px;
 }
 .carousel .carousel-indicators li {
-    top: -1rem;
+    top: 0;
   
     }
 .fa-facebook, .fa-instagram, .fa-yelp {
@@ -1005,7 +1005,7 @@ bottom: 1rem;
     }
  .carousel-control-prev,
     .carousel-control-next {
-         bottom:20rem;    
+         bottom:25rem;    
         
         
     }   
@@ -1014,11 +1014,11 @@ bottom: 1rem;
     top: -25rem;
     }   
 .carousel-indicators{
-        bottom:22rem;
+        bottom:27rem;
         
 }
 .view{
-        height:45%;
+        height:40%;
     }    
 .carousel {
     height: 100%;
