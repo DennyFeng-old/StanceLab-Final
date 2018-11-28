@@ -1,7 +1,12 @@
 /* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
 html,
 body{
-  height: 100%; }
+  width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 /* Full Page Carousel itself*/
 .carousel {
@@ -22,6 +27,8 @@ body{
 }
 .view{
     height:100%;
+    -o-object-fit: cover;
+    object-fit: cover;
     opacity: 0.8 !important;
 }
 .mask{
@@ -310,10 +317,14 @@ bottom: 1rem;
     color: #4285f4!important;
 }
 /* Media Queries */
-@media only screen and (max-width:1199px){
-    .carousel .carousel-indicators li {
+@media only screen and (max-width:1200px){
+.carousel .carousel-indicators li {
     top: -3rem;
 }
+
+.view{
+        height:100%;
+    }
 .nav-logo {
     width: 22%;
 }
@@ -497,7 +508,6 @@ bottom: 1rem;
 }
 
 
-
 @media only screen and (max-width:991px)
 {
 .carousel .carousel-indicators li {
@@ -523,7 +533,7 @@ bottom: 1rem;
     top: -15rem;
     }   
 .carousel-indicators{
-        bottom:12rem;
+        bottom:9rem;
 }
 .carousel {
     height: 90%;
@@ -733,7 +743,7 @@ bottom: 1rem;
 @media only screen and (max-width: 767px)
 {  
   .carousel .carousel-indicators li {
-    top: 1rem;
+    top: 5rem;
 }
     .navbar .nav-item .nav-link {
     padding-right: 20px;
@@ -745,7 +755,7 @@ bottom: 1rem;
 }
  .carousel-control-prev,
     .carousel-control-next {
-         bottom:25rem;    
+         bottom:20rem;    
         
         
     }   
@@ -757,11 +767,11 @@ bottom: 1rem;
 
     }   
 .carousel-indicators{
-        bottom:30rem;
+        bottom:21rem;
         
 }
 .view{
-        height:45%;
+        height:50%;
     }    
 .carousel {
     height: 100%;
@@ -770,7 +780,7 @@ bottom: 1rem;
     width: 300px;
     height: 142px;
     position: relative;
-    left: 7rem;
+    left: 6rem;
     bottom: 9rem;
     } 
 .carousel-horiz-1 {
@@ -799,7 +809,7 @@ bottom: 1rem;
     }
 .left-ft1{
      bottom: 8rem;
-    left: -2.5rem
+    left: -1.5rem
 
     }  
     
@@ -813,7 +823,7 @@ bottom: 1rem;
 .left-ft2{
        
       bottom: 8rem;
-    left: -2.5rem
+    left: -1.5rem
    
     }   
     
@@ -825,7 +835,7 @@ bottom: 1rem;
 
 .left-ft3 {
     top: -10rem;
-    right:2.5rem
+    right:1.5rem
 
 }    
     
@@ -854,7 +864,7 @@ bottom: 1rem;
 .right-ft3 {
    
     bottom: 2.5rem;
-    right:2.5rem;
+    right:1.5rem;
   
 }
 
@@ -874,20 +884,20 @@ bottom: 1rem;
 }
 
  .carousel-hh1{
-    left: 5rem;
+    left: 6rem;
    
 
 
 }
 .carousel-hh2{
     bottom: 0.25rem;
-    left: 5rem;
+    left: 6rem;
  
 
 }
 .carousel-hh3{
        bottom: 1rem;
-    left:5rem;
+    left:6rem;
     }   
 .hh-text {
     top: 1rem;
@@ -930,7 +940,7 @@ bottom: 1rem;
 }
 .sendBtn{
        position: relative;
-    left:7rem;
+    left:8.5rem;
     }    
 .fa-map-marker{
     position: relative;
@@ -989,8 +999,7 @@ bottom: 1rem;
     padding-left: 5px;
 }
 .carousel .carousel-indicators li {
-    top: -1rem;
-  
+  display:none;
     }
 .fa-facebook, .fa-instagram, .fa-yelp {
     position: relative;
@@ -1005,7 +1014,7 @@ bottom: 1rem;
     }
  .carousel-control-prev,
     .carousel-control-next {
-         bottom:20rem;    
+         bottom:22rem;    
         
         
     }   
@@ -1014,11 +1023,11 @@ bottom: 1rem;
     top: -25rem;
     }   
 .carousel-indicators{
-        bottom:22rem;
+       display:none;
         
 }
 .view{
-        height:45%;
+        height:38%;
     }    
 .carousel {
     height: 100%;
@@ -1037,7 +1046,7 @@ bottom: 1rem;
     width: 250px;
     height: 142px;
     position: relative;
-    left: 2rem;
+    left:-1rem;
     bottom: 9rem;
     } 
 .carousel-horiz-1 {
@@ -1063,7 +1072,7 @@ bottom: 1rem;
 
 .left-ft1{
     bottom: 9rem;
-    left:-0.5rem;
+    left:-1.5rem;
 
     }  
     
@@ -1078,7 +1087,7 @@ bottom: 1rem;
 .left-ft2{
        
     bottom: 10rem;
-     left:-0.5rem;
+     left:-1.5rem;
    
     }   
     
@@ -1089,7 +1098,7 @@ bottom: 1rem;
 
 .left-ft3 {
     top: -10rem;
-     left:-0.5rem;
+     left:-1.5rem;
 
 }    
     
@@ -1101,16 +1110,16 @@ bottom: 1rem;
     
 .fa-wrench {
  
-    left: 1rem;
+    left: 0rem;
     top: -8.2rem;
 }
 .fa-car{
-    left: 1rem;
+    left: 0rem;
     top: -9.2rem;
     }    
 
 .fa-line-chart {
-      left: 1rem;
+      left: 0rem;
     top: -9.2rem;
 }
 .right-ft1,   
@@ -1129,9 +1138,12 @@ bottom: 1rem;
         left:-1rem;
     } 
  
-   
+    .fa-spray-can{
+        left: 1rem;
+    bottom:0.5rem;
+    }
+    
 .fa-dharmachakra,    
-.fa-spray-can,
 .fa-palette {
     left: 1rem;
     bottom:1.1rem;
@@ -1206,7 +1218,7 @@ bottom: 1rem;
 }
 .sendBtn{
        position: relative;
-    left:3rem;
+    left:2rem;
     }    
 .fa-map-marker{
     position: relative;
