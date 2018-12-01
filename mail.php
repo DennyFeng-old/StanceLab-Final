@@ -26,7 +26,7 @@ if ($message === ''){
   exit();
 }
 $content="From: $name \nEmail: $email \nMessage: $message";
-$to = "dfeng415@yahoo.com";
+$to = "info@stancelab.com";
 $mailheader = "From: $email \r\n";
 mail($to, $subject, $content, $mailheader) or die("Error!");
 print json_encode(array('message' => 'Email successfully sent!', 'code' => 1));
